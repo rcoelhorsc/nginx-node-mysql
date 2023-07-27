@@ -14,8 +14,9 @@ services:
     networks: 
       - mynetwork    
     depends_on: 
-      - db    
-
+      db:
+        condition: service_healthy  
+  
   db:
     image: mysql:5.7               
     command: --innodb-use-native-aio=0    
