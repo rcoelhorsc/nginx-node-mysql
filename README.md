@@ -1,4 +1,6 @@
-# Desafio Nginx com Node.js
+# Projeto prático: Nginx com Node.js
+
+## 🌱 Descrição do projeto 
 
 Desafio apresentado no curso Full Cycle (módulo Docker).
 
